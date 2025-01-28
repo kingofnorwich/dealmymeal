@@ -48,8 +48,9 @@ button:hover {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
-  justify-content: center;
   flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  justify-content: center;
+  align-items: center;
 }
 
 #result h3 {
@@ -64,6 +65,7 @@ button:hover {
   padding: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
+  margin-left: 20px;
   border: 2px solid #4CAF50; /* Green border */
   border-radius: 8px;
   opacity: 0; /* Initially hidden */
@@ -125,7 +127,7 @@ footer a:hover {
 }
 
 /* Mobile responsiveness */
-@media (max-width: 768px) {
+@media (max-width: 800px;) {
   #result {
     flex-direction: column; /* Stack items vertically on mobile */
     align-items: center; /* Center the items */
@@ -135,7 +137,9 @@ footer a:hover {
     display: block;
     width: 100%; /* Stack images vertically on mobile */
     margin-right: 0;
+    margin-left:0;
     margin-bottom: 20px; /* Space between stacked images */
+    align-items: center;
   }
 
   #Main img, #Snack img, #Drink img {
