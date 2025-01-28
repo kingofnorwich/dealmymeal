@@ -102,7 +102,6 @@ button:hover {
 }
 
 /* Footer Styling */
-/* Footer Styling */
 footer {
   background-color: #4CAF50; /* Green */
   color: #fff;
@@ -141,5 +140,68 @@ footer a:hover {
   #Main img, #Snack img, #Drink img {
     width: 100%; /* Make images responsive on mobile */
     height: auto; /* Maintain aspect ratio */
+  }
+}
+
+/* Dark Mode Styling */
+@media (prefers-color-scheme: dark) {
+  /* General styles for dark mode */
+  body {
+    background-color: #181818;
+    color: #f0f0f0;
+  }
+
+  h1 {
+    color: #4CAF50; /* Keep green for contrast */
+  }
+
+  p {
+    color: #f0f0f0;
+  }
+
+  /* Button styling */
+  button {
+    background-color: #FFEB3B; /* Yellow */
+    color: #333;
+  }
+
+  button:hover {
+    background-color: #FFCA28; /* Darker Yellow */
+  }
+
+  /* Result Section Styling */
+  #result {
+    background-color: #333;
+    border-color: #4CAF50;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Darker shadow */
+  }
+
+  #result h3 {
+    color: #4CAF50; /* Green */
+  }
+
+  #Main, #Snack, #Drink {
+    background-color: #444;
+    border-color: #4CAF50;
+    color: #fff;
+  }
+
+  #Main img, #Snack img, #Drink img {
+    border-radius: 8px;
+    border: 2px solid #444;
+  }
+
+  /* Footer Styling */
+  footer {
+    background-color: #333;
+    color: #fff;
+  }
+
+  footer a {
+    color: #FFEB3B; /* Yellow */
+  }
+
+  footer a:hover {
+    text-decoration: underline;
   }
 }
