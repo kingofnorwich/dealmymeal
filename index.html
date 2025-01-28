@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale="1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Deal My Meal</title>
+
+
+    </head>
+    <body>
+        <h1>
+            Meal Deal Generator For Tesco
+        </h1>
+        <p> Press the button to deal your meal</p>
+        <button onclick="fetchRandomItems()">Deal My Meal</button>
+        <div id="result">
+            <h3>The Chosen Meal Deal</h3>
+            <div id="Main"></div>
+            <div id="Snack"></div>
+            <div id="Drink"></div>
+            <p>This website was written and developed by Jacob Sharred and Michael Yates, the original idea comes from Meal Deal Roulette by Jude Coram but we wanted to create a more personalised version for our local Morrisons store</p>
+            <p>This is very early stage development and we intend to build this up to work with multiple stores, to allow certain options for people who have different dietary requirements and to make the site more fun and interactive</p>
+         
+            </div>
+           
+        </div>
+
+        <script>
+// Function to fetch JSON data and display random items
+async function fetchRandomItems() {
+  try {
+    const response = await fetch('./mealdeals.json'); // Ensure the path is correct
+    if (!response.ok) {
+      throw new Error(`Failed to fetch JSON: ${response.status}`);
+    }
+
+    const tescomealdeals = await response.json();
+
+    // Get random items
+    const randomMain = Math.floor(Math.random() * tescomealdeals.mains.length);
+    const randomSnack = Math.floor(Math.random() * tescomealdeals.snacks.length);
+    const randomDrink = Math.floor(Math.random() * tescomealdeals.drinks.length);
+
+    // Randomly select items from the JSON
+    const result = {
+      mains: tescomealdeals.mains[randomMain],
+      snacks: tescomealdeals.snacks[randomSnack],
+      drinks: tescomealdeals.drinks[randomDrink],
+    };
+
+    // Display the items in the HTML
+    document.getElementById('Main').innerHTML = `
+      <p>Main: ${result.mains.name}</p>
+      <img src="${result.mains.image}" alt="${result.mains.name}">
+    `;
+    document.getElementById('Snack').innerHTML = `
+      <p>Snack: ${result.snacks.name}</p>
+      <img src="${result.snacks.image}" alt="${result.snacks.name}">
+    `;
+    document.getElementById('Drink').innerHTML = `
+      <p>Drink: ${result.drinks.name}</p>
+      <img src="${result.drinks.image}" alt="${result.drinks.name}">
+    `;
+
+    // Trigger the fade-in effects in sequence
+    setTimeout(() => {
+      document.getElementById('Main').style.opacity = 1;
+    }, 100); // Delay for Main
+
+    setTimeout(() => {
+      document.getElementById('Snack').style.opacity = 1;
+    }, 2200); // Delay for Snack (after Main's fade-in)
+
+    setTimeout(() => {
+      document.getElementById('Drink').style.opacity = 1;
+    }, 4400); // Delay for Drink (after Snack's fade-in)
+
+  } catch (error) {
+    console.error('Error:', error.message);
+  }
+}
+
+
+          </script>
+      
+      
+          
+
+
+    </body>
+    <footer><p>Images from <a href="https://https://groceries.morrisons.com/">Morrisons</a> Original Idea can be found <a href="https://appareloflaughs.co.uk/meal-deal/">here </a></p> </footer>
+    </html>
