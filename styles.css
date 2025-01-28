@@ -127,10 +127,11 @@ footer a:hover {
 }
 
 /* Mobile responsiveness */
-@media (max-width: 800px;) {
+@media (max-width: 768px;) {
   #result {
     flex-direction: column; /* Stack items vertically on mobile */
     align-items: center; /* Center the items */
+    width: 100%;;
   }
 
   #Main, #Snack, #Drink {
