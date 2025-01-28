@@ -50,6 +50,7 @@ button:hover {
   display: flex;
   justify-content: center;
   flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  align-items: flex-start; /* Fixes alignment on mobile */
 }
 
 #result h3 {
@@ -112,7 +113,6 @@ footer {
   width: 100%;
   bottom: 0; /* Removed, as it's no longer needed */
 }
-
 
 footer a {
   color: #FFEB3B; /* Yellow */
