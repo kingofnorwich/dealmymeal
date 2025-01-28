@@ -50,6 +50,8 @@ button:hover {
   display: flex;
   justify-content: center;
   flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  align-items: flex-start; /* Fixes alignment on mobile */
+  width: 100%; /* Ensure it's full width to maintain center alignment */
 }
 
 #result h3 {
@@ -127,6 +129,7 @@ footer a:hover {
   #result {
     flex-direction: column; /* Stack items vertically on mobile */
     align-items: center; /* Center the items */
+    width: 90%; /* Set width to 90% to prevent sticking to the edges */
   }
 
   #Main, #Snack, #Drink {
