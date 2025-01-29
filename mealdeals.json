@@ -1,7 +1,7 @@
 {
     "mains": [
       {
-        "name": "Hamd and Cheese Sandwich",
+        "name": "Ham and Cheese Sandwich",
         "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/02e92334-ebc2-45fd-ba50-9430b804cb0c/200x200.webp",
         "is_vegetarian": false
       },
