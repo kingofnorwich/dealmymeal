@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Dark Mode Toggle</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Deal My Meal</title>
   </head>
   <body>
     <h1>Meal Deal Generator For Morrisons</h1>
     <p>Press the button to deal your meal</p>
     <button onclick="fetchRandomItems()">Deal My Meal</button>
-    
-
 
     <div id="result">
       <h3>The Chosen Meal Deal</h3>
@@ -26,7 +25,6 @@
       <p>This website was written and developed by Jacob Sharred and Michael Yates. The original idea comes from Meal Deal Roulette by Jude Coram, but we wanted to create a more personalized version for our local Morrisons store.</p>
       <p>This is very early stage development, and we intend to build this up to work with multiple stores, allow certain options for people with different dietary requirements, and make the site more fun and interactive.</p>
     </div>
-    <button onclick="toggleDarkMode()">Toggle Night Mode</button> <!-- Night mode toggle button -->
 
     <footer>
       <p>Images from <a href="https://groceries.morrisons.com/">Morrisons</a>. The original idea can be found <a href="https://appareloflaughs.co.uk/meal-deal/">here</a>.</p>
@@ -85,11 +83,6 @@
         } catch (error) {
           console.error('Error:', error.message);
         }
-      }
-
-      // Function to toggle dark mode
-      function toggleDarkMode() {
-        document.body.classList.toggle('dark-mode');
       }
     </script>
   </body>
