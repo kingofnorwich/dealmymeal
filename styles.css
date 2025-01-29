@@ -1,3 +1,4 @@
+/* Default Light Mode */
 body {
   font-family: Arial, sans-serif;
   text-align: center;
@@ -55,20 +56,48 @@ img {
   display: block;
   margin: 10px auto;
 }
+
 #info {
   width: 50%;
   margin: auto;
-
 }
 
-
-@media (max-width: 600px) {
-  .meal-deal {
-      flex-direction: column;
-
-  }
-  #info {
-    flex-direction: column;
-
+/* Dark Mode Styles */
+.dark-mode {
+  background-color: #333;
+  color: #f7f7f7;
 }
+
+.dark-mode h1 {
+  color: #90EE90;
+}
+
+.dark-mode button {
+  background-color: #FFD700;
+  color: #333;
+}
+
+.dark-mode button:hover {
+  background-color: #FFC107;
+}
+
+.dark-mode #result {
+  background-color: #444;
+  color: #f7f7f7;
+}
+
+.dark-mode .meal-deal {
+  background-color: #555;
+}
+
+.dark-mode #info {
+  background-color: #444;
+  color: #f7f7f7;
+}
+
+.dark-mode img {
+  border: 2px solid #f7f7f7;
+}
+.dark-mode a {
+  color: white;
 }
