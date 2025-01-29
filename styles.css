@@ -1,153 +1,103 @@
-/* General styles */
-html, body {
-  overflow-x: hidden;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
+/* Default Light Mode */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  text-align: center;
+  background-color: #f7f7f7;
   color: #333;
   margin: 0;
   padding: 0;
-  max-width: 100%;
-  width: 100%;
 }
 
 h1 {
-  text-align: center;
-  color: #4CAF50; /* Green */
-  font-size: 2.5em;
-  margin-top: 20px;
+  color: #228B22;
 }
 
-p {
-  text-align: center;
-  font-size: 1.2em;
-  color: #333;
-}
-
-/* Button styling */
 button {
-  background-color: #FFEB3B; /* Yellow */
-  border: none;
+  background-color: #FFD700;
   color: #333;
-  padding: 15px 30px;
-  font-size: 1.2em;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
   cursor: pointer;
+  margin-top: 10px;
   border-radius: 5px;
-  margin-top: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 button:hover {
-  background-color: #FFCA28; /* Darker Yellow */
+  background-color: #FFC107;
 }
 
-/* Result Section Styling */
 #result {
-  width: 80%;
-  margin: 30px auto;
-  max-width: 100%; /* Ensures it does not exceed screen width */
-  padding: 20px;
   background-color: #fff;
+  padding: 20px;
+  margin: 20px auto;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-wrap: wrap; /* Allows wrapping on smaller screens */
-  justify-content: center;
-  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 80%;
 }
 
-#result h3 {
-  text-align: center;
-  color: #4CAF50; /* Green */
-  width: 100%; /* Make sure the title spans the full width */
-  margin-bottom: 20px;
+.meal-deal {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 #Main, #Snack, #Drink {
-  background-color: #fff;
-  padding: 20px;
-  margin: 10px auto; /* Centers them and prevents overflow */
-  border: 2px solid #4CAF50; /* Green border */
-  border-radius: 8px;
-  opacity: 0; /* Initially hidden */
-  animation: fadeIn 2s forwards; /* Slower fade-in animation */
-  width: 200px; /* Set width for the images */
+  opacity: 1; /* Make the elements visible */
+  transition: opacity 1s ease-in-out;
+  flex: 1;
 }
 
-#Main img, #Snack img, #Drink img {
-  width: 200px;
-  height: 200px;
-  border-radius: 8px;
-  margin-top: 10px;
+img {
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 10px auto;
 }
 
-/* Fade-in animation */
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+#info {
+  width: 50%;
+  margin: auto;
 }
 
-/* Delay the fade-in for each section */
-#Main {
-  animation-delay: 0s;
+/* Dark Mode Styles */
+.dark-mode {
+  background-color: #333;
+  color: #f7f7f7;
 }
 
-#Snack {
-  animation-delay: 2s; /* Delay for Snack */
+.dark-mode h1 {
+  color: #90EE90;
 }
 
-#Drink {
-  animation-delay: 4s; /* Delay for Drink */
+.dark-mode button {
+  background-color: #FFD700;
+  color: #333;
 }
 
-/* Footer Styling */
-footer {
-  background-color: #4CAF50; /* Green */
-  color: #fff;
-  text-align: center;
-  padding: 20px;
-  font-size: 1em;
-  position: relative; /* Changed from fixed to relative */
-  width: 100%;
+.dark-mode button:hover {
+  background-color: #FFC107;
 }
 
-footer a {
-  color: #FFEB3B; /* Yellow */
-  text-decoration: none;
+.dark-mode #result {
+  background-color: #444;
+  color: #f7f7f7;
 }
 
-footer a:hover {
-  text-decoration: underline;
+.dark-mode .meal-deal {
+  background-color: #555;
 }
 
-/* Mobile responsiveness */
-@media (max-width: 768px) { /* Adjust breakpoint as needed */
-  #result {
-    flex-direction: column; /* Stack items vertically on mobile */
-    align-items: center; /* Center the items */
-    width: 100%;
-    margin: auto;
-  }
+.dark-mode #info {
+  background-color: #444;
+  color: #f7f7f7;
+}
 
-  #Main, #Snack, #Drink {
-    width: 90%; /* Make them fit the screen */
-    max-width: 300px; /* Prevent excessive stretching */
-    margin: 10px auto;
-  }
-
-  #Main img, #Snack img, #Drink img {
-    width: 100%; /* Make images responsive on mobile */
-    height: auto; /* Maintain aspect ratio */
-  }
+.dark-mode img {
+  border: 2px solid #f7f7f7;
+}
+.dark-mode a {
+  color: white;
 }
