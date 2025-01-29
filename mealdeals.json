@@ -2,173 +2,240 @@
     "mains": [
       {
         "name": "Hamd and Cheese Sandwich",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/02e92334-ebc2-45fd-ba50-9430b804cb0c/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/02e92334-ebc2-45fd-ba50-9430b804cb0c/200x200.webp",
+        "is_vegetarian": false
       },
       {
         "name": "Chicken and Bacon Caesar Wrap",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/45e4f344-ebf0-427f-a1e1-9ff3a366a47e/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/45e4f344-ebf0-427f-a1e1-9ff3a366a47e/200x200.webp",
+        "is_vegetarian": false
       },
       {
         "name": "Roast Chicken and Bacon Sandwich",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/53c88d01-78c4-47b6-9211-aa3ab5b31048/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/53c88d01-78c4-47b6-9211-aa3ab5b31048/200x200.webp",
+        "is_vegetarian": false
       },
       {
         "name": "Chicken Salad Sandwich",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/c9396a5c-f7fb-469a-854c-bbe1f1b9855b/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/c9396a5c-f7fb-469a-854c-bbe1f1b9855b/200x200.webp",
+        "is_vegetarian": false
       },
       {
         "name": "BLT Sandwich",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/c9396a5c-f7fb-469a-854c-bbe1f1b9855b/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/c9396a5c-f7fb-469a-854c-bbe1f1b9855b/200x200.webp",
+        "is_vegetarian": false
       },
       {
         "name": "Chicken and Stuffing Sandwich",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/db46c626-4081-410e-9d6e-5361d1e7ac3f/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/db46c626-4081-410e-9d6e-5361d1e7ac3f/200x200.webp",
+        "is_vegetarian": false
       },
       {
         "name": "Chicken and Bacon Pasta",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/04fa34e7-ad74-4ff8-957b-4d5b963ad0d3/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/04fa34e7-ad74-4ff8-957b-4d5b963ad0d3/200x200.webp",
+        "is_vegetarian": false
       },
       {
         "name": "Egg Mayo and Bacon Sandwich",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/0c3eda98-ec2d-4642-a12b-d692a5928820/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/0c3eda98-ec2d-4642-a12b-d692a5928820/200x200.webp",
+        "is_vegetarian": false
       },
       {
         "name": "Tomato and Basil Chicken Pasta",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/dc8755ad-761c-4970-9baa-a39be29df0aa/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/dc8755ad-761c-4970-9baa-a39be29df0aa/200x200.webp",
+        "is_vegetarian": false
       },
       {
         "name": "Roast Beef and Horseradish Sandwich",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/d052922a-2683-4479-829a-4877fed68bbd/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/d052922a-2683-4479-829a-4877fed68bbd/200x200.webp",
+        "is_vegetarian": false
       },
       {
         "name": "Greek Halloumi Wrap",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/9c50e2e5-b59e-47b7-ac1b-483071e254c9/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/9c50e2e5-b59e-47b7-ac1b-483071e254c9/200x200.webp",
+        "is_vegetarian": true
       },
       {
         "name": "Prawn Mayonnaise Sandwich",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/2ab3e8ca-fc8e-4fa5-8cac-ca218ef9b780/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/2ab3e8ca-fc8e-4fa5-8cac-ca218ef9b780/200x200.webp",
+        "is_vegetarian": false
       },
       {
         "name": "Sweet Chilli Chicken Wrap",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/a8e7e24a-d26b-47b9-8bff-e4018a2e1fb4/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/a8e7e24a-d26b-47b9-8bff-e4018a2e1fb4/200x200.webp",
+        "is_vegetarian": false
       },
       {
         "name": "Southern Fried Chicken Wrap",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/26c85c0e-4840-4d08-8fce-b0d18eb64233/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/26c85c0e-4840-4d08-8fce-b0d18eb64233/200x200.webp",
+        "is_vegetarian": false
+      },
+      {
+        "name": "Cheese and Onion Sandwich",
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/f333156d-4117-473d-8081-c71ba9215a78/1280x1280.webp",
+        "is_vegetarian": true
+      },
+      {
+        "name": "Egg and Cress Sandwich",
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/2391f17d-758c-4550-8e4b-38ef29b9920f/1280x1280.webp",
+        "is_vegetarian": true
+      },
+      {
+        "name": "Cheese Pickle Sandwich",
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/de27e756-b2a3-47fc-a8fa-1353f2d4b40d/1280x1280.webp",
+        "is_vegetarian": true
+      },
+      {
+        "name": "Pea Leek and Watercress Soup",
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/6e36625d-fa61-4092-abbf-fecd4f18ff17/200x200.webp",
+        "is_vegetarian": true
+      },
+      {
+        "name": "Tomato and Basil Soup",
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/9fae17df-b6d1-4b1f-9686-0c7907740647/200x200.webp",
+        "is_vegetarian": true
       }
     ],
     "snacks": [
       {
-        "name": "Hard Boiled Eggs",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/78466c58-755f-4a6f-9f3c-9a28c282e158/200x200.webp"
+        "name": "Aaron Birds Boiled Eggs",
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/78466c58-755f-4a6f-9f3c-9a28c282e158/200x200.webp",
+        "is_vegetarian": true
       },
       {
         "name": "Oat Crunch Chocolate and Yoghurt",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/a5499ca5-a1f3-4be2-a89c-a0f414269084/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/a5499ca5-a1f3-4be2-a89c-a0f414269084/200x200.webp",
+        "is_vegetarian": true
       },
       {
         "name": "Hula BIG Hoops BBQ Beef",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/93294407-e711-434e-8ffb-c241f6c263ae/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/93294407-e711-434e-8ffb-c241f6c263ae/200x200.webp",
+        "is_vegetarian": false
       },
       {
         "name": "Nomadic Oat Clusters Strawberry",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/2a046471-7a2a-415b-9b5e-0fa017f41b51/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/2a046471-7a2a-415b-9b5e-0fa017f41b51/200x200.webp",
+        "is_vegetarian": true
       },
       {
         "name": "Jumbo vegetable Samosa",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/35dd5bbf-bc62-4858-992b-7d68b8993d40/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/35dd5bbf-bc62-4858-992b-7d68b8993d40/200x200.webp",
+        "is_vegetarian": true
       },
       {
         "name": "hula BIG hoops Salted Grab Bag",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/bf678ec9-3036-4424-873b-3c171082d726/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/bf678ec9-3036-4424-873b-3c171082d726/200x200.webp",
+        "is_vegetarian": true
       },
       {
         "name": "Pringles Original",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/ed5083cd-2aac-4578-a359-df4c1d7563d9/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/ed5083cd-2aac-4578-a359-df4c1d7563d9/200x200.webp",
+        "is_vegetarian": true
       },
       {
         "name": "Pringles Sour Cream and Onion",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/da1012ff-ea5e-42fa-a3c0-73c6cbda5ba4/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/da1012ff-ea5e-42fa-a3c0-73c6cbda5ba4/200x200.webp",
+        "is_vegetarian": true
       },
       {
         "name": "Chicken Satay and Sweet Chilli Dip",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/e484a464-8943-412a-a0c0-39443a9698cb/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/e484a464-8943-412a-a0c0-39443a9698cb/200x200.webp",
+        "is_vegetarian": false
       },
       {
         "name": "Pork Sausage Roll",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/5f2265d6-a8cc-4ebd-9ca5-4c5c32c30337/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/5f2265d6-a8cc-4ebd-9ca5-4c5c32c30337/200x200.webp",
+        "is_vegetarian": false
       },
       {
         "name": "Carrot Sticks and Houmous, the warehouse managers favourite",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/9c2c8d3d-a700-497f-a25f-56a1d39b1b98/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/9c2c8d3d-a700-497f-a25f-56a1d39b1b98/200x200.webp",
+        "is_vegetarian": true
       },
       {
         "name": "Seafood Stick with Marie Rose Sauce",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/761516fe-f368-42b9-9f64-4e0c88056aef/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/761516fe-f368-42b9-9f64-4e0c88056aef/200x200.webp",
+        "is_vegetarian": false
       },
       {
         "name": "Del Monte Pineapple Chunks",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/60680f96-7c9f-45d0-960f-bc0c1aaafd6e/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/60680f96-7c9f-45d0-960f-bc0c1aaafd6e/200x200.webp",
+        "is_vegetarian": true
       },
       {
         "name": "Del Monte Apple Grape and Strawberry",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/8ade4544-99e3-43bc-a7c6-ce75a030fdb0/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/8ade4544-99e3-43bc-a7c6-ce75a030fdb0/200x200.webp",
+        "is_vegetarian": true
       },
       {
         "name": "Fridge Raiders Slow Roast",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/c5ea173c-5972-41c8-8c5c-58b0df1c780c/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/c5ea173c-5972-41c8-8c5c-58b0df1c780c/200x200.webp",
+        "is_vegetarian": false
       },
       {
         "name": "Wotsits",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/a9588114-e6d8-430e-9ce3-643efbbf6c17/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/a9588114-e6d8-430e-9ce3-643efbbf6c17/200x200.webp",
+        "is_vegetarian": true
       },
       {
         "name": "Mini Cheddars Grab Bag",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/693e96b7-c358-4c23-9f53-5a84d902031d/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/693e96b7-c358-4c23-9f53-5a84d902031d/200x200.webp",
+        "is_vegetarian": true
       },
       {
         "name": "Quavers",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/bffa34a4-17c6-495a-80ca-50d62336e741/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/bffa34a4-17c6-495a-80ca-50d62336e741/200x200.webp",
+        "is_vegetarian": true
       },
       {
         "name": "Millionaires Shortbread",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/e21e4d17-cc5c-43bc-b285-236f5056ad98/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/e21e4d17-cc5c-43bc-b285-236f5056ad98/200x200.webp",
+        "is_vegetarian": true
       },
       {
         "name": "Quavers Prawn Cocktail",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/583d3019-9e8f-46dd-8c56-4d141e36e845/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/583d3019-9e8f-46dd-8c56-4d141e36e845/200x200.webp",
+        "is_vegetarian": true
       },
       {
         "name": "McCoys Flame Grilled Steak",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/ab454a79-87d6-40b8-9c14-099a01427fbf/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/ab454a79-87d6-40b8-9c14-099a01427fbf/200x200.webp",
+        "is_vegetarian": false
       },
       {
         "name": "Tyrells Sea Salted",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/167531e1-414c-4b90-a48c-c0b2933be2f3/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/167531e1-414c-4b90-a48c-c0b2933be2f3/200x200.webp",
+        "is_vegetarian": true
       },
       {
         "name": "Chocolate Brownie",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/a422b2e6-85b7-4372-a197-1fb94f360ca4/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/a422b2e6-85b7-4372-a197-1fb94f360ca4/200x200.webp",
+        "is_vegetarian": true
       },
       {
         "name": "McCoys Salt and Vinegar",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/312ede59-9467-4ae6-b417-782864efe36e/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/312ede59-9467-4ae6-b417-782864efe36e/200x200.webp",
+        "is_vegetarian": true
       },
       {
         "name": "Popworks Sweet and Salty Popcorn",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/a018194d-3dc6-4221-af65-181177bdec97/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/a018194d-3dc6-4221-af65-181177bdec97/200x200.webp",
+        "is_vegetarian": true
       },
       {
         "name": "Dairy Milk Duo",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/29a98fe0-f13c-4adf-9515-a0c09153c4f4/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/29a98fe0-f13c-4adf-9515-a0c09153c4f4/200x200.webp",
+        "is_vegetarian": true
       },
       {
         "name": "Doritoes Tangy Cheese",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/7cbe573a-6e54-4c45-b6bb-b8854610162d/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/7cbe573a-6e54-4c45-b6bb-b8854610162d/200x200.webp",
+        "is_vegetarian": true
       },
       {
         "name": "Whispa",
-        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/d6b50ee0-aafd-420d-b52c-18dd2c5aef2c/200x200.webp"
+        "image": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/d6b50ee0-aafd-420d-b52c-18dd2c5aef2c/200x200.webp",
+        "is_vegetarian": true
       }
     ],
     "drinks": [

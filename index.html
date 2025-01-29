@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Dark Mode Toggle</title>
+    <title>Deal My Meal</title>
   </head>
   <body>
     <h1>Meal Deal Generator For Morrisons</h1>
     <p>Press the button to deal your meal</p>
-    <button onclick="fetchRandomItems()">Deal My Meal</button>
-    
 
+    <!-- Vegetarian filter checkbox -->
+    <label for="vegetarian-filter">Show only vegetarian options:</label>
+    <input type="checkbox" id="vegetarian-filter" />
+    <br>
+
+    <button onclick="fetchRandomItems()">Deal My Meal</button>
 
     <div id="result">
       <h3>The Chosen Meal Deal</h3>
@@ -43,16 +47,28 @@
 
           const tescomealdeals = await response.json();
 
-          // Get random items
-          const randomMain = Math.floor(Math.random() * tescomealdeals.mains.length);
-          const randomSnack = Math.floor(Math.random() * tescomealdeals.snacks.length);
-          const randomDrink = Math.floor(Math.random() * tescomealdeals.drinks.length);
+          // Get vegetarian filter state
+          const isVegetarianOnly = document.getElementById('vegetarian-filter').checked;
 
-          // Randomly select items from the JSON
+          // Filter the items based on the checkbox
+          const filteredMains = isVegetarianOnly
+            ? tescomealdeals.mains.filter(item => item.is_vegetarian)
+            : tescomealdeals.mains;
+          const filteredSnacks = isVegetarianOnly
+            ? tescomealdeals.snacks.filter(item => item.is_vegetarian)
+            : tescomealdeals.snacks;
+          const filteredDrinks = tescomealdeals.drinks; // Assuming drinks are not affected by vegetarian filter
+
+          // Get random items
+          const randomMain = Math.floor(Math.random() * filteredMains.length);
+          const randomSnack = Math.floor(Math.random() * filteredSnacks.length);
+          const randomDrink = Math.floor(Math.random() * filteredDrinks.length);
+
+          // Randomly select items from the filtered lists
           const result = {
-            mains: tescomealdeals.mains[randomMain],
-            snacks: tescomealdeals.snacks[randomSnack],
-            drinks: tescomealdeals.drinks[randomDrink],
+            mains: filteredMains[randomMain],
+            snacks: filteredSnacks[randomSnack],
+            drinks: filteredDrinks[randomDrink],
           };
 
           // Display the items in the HTML
